@@ -110,7 +110,7 @@ GlitchMiner has proven effective across various LLM architectures, significantly
 
 ## 🌟 Citing
 
-If you use GlitchMiner in your research, please cite:
+If you find GlitchMiner helpful in your research, please cite:
 ```bibtex
 @misc{wu2024glitchminerminingglitchtokens,
       title={GlitchMiner: Mining Glitch Tokens in Large Language Models via Gradient-based Discrete Optimization}, 
