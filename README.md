@@ -6,6 +6,7 @@
 
 ## Update
 
+- 2025/11/8 🎉🎉🎉 Our paper has been accepted by AAAI 2026! 
 - 2024/11/7 We add reproduction code of the two baseline method in this paper.
 
 **GlitchMiner** is a robust framework designed to detect glitch tokens—tokens that cause unexpected behaviors in large language models (LLMs). These anomalies can severely impact model outputs, particularly in sensitive applications such as healthcare or finance.
