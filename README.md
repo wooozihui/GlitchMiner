@@ -9,35 +9,21 @@
 - 2025/11/8 🎉🎉🎉 Our paper has been accepted by AAAI 2026! 
 - 2024/11/7 We add reproduction code of the two baseline method in this paper.
 
-**GlitchMiner** is a robust framework designed to detect glitch tokens—tokens that cause unexpected behaviors in large language models (LLMs). These anomalies can severely impact model outputs, particularly in sensitive applications such as healthcare or finance.
 
 [Read our paper](https://arxiv.org/pdf/2410.15052) for detailed insights.
 
 ---
 
-## 🧐 What are Glitch Tokens?
+## 🔍 Introduction
+**GlitchMiner** is a robust framework designed to detect glitch tokens—tokens that cause unexpected behaviors in large language models (LLMs). These anomalies can severely impact model outputs, particularly in sensitive applications such as healthcare or finance.
+It uses gradient-based discrete optimization to identify glitch tokens effectively.
+<img width="1018" height="525" alt="image" src="https://github.com/user-attachments/assets/35dde1fa-c932-45b6-8b65-ce0fbdc092cc" />
 
-**Glitch tokens** are errors within LLMs that can trigger:
-- **Incorrect outputs:** Misleading information in critical decision-making.
-- **Hallucinated content:** Unreliable or irrelevant responses.
-- **Security risks:** Exposure to potential adversarial attacks.
+- Left: The pipeline.
 
-### Causes of Glitch Tokens:
-- **Inadequate training data** for certain tokens.
-- **Suboptimal token embeddings** affecting model performance.
-- **Rare token occurrences** that the model fails to handle properly.
+- Right: Visualization of GlitchMiner's local search strategy.
 
----
 
-## 🔍 How GlitchMiner Works
-
-**GlitchMiner** uses gradient-based discrete optimization to identify glitch tokens effectively, enhancing both the security and reliability of LLMs.
-
-### Key Features:
-- **Entropy Maximization:** Targets tokens where the model's output is most uncertain.
-- **Gradient-Guided Search:** Employs model gradients to pinpoint potential glitches.
-- **Dynamic Token Filtering:** Refines the focus on relevant tokens, improving search efficiency.
-- **Support for Multiple Models:** Compatible with popular models like Llama, Qwen, and Gemma.
 
 ---
 
@@ -103,11 +89,6 @@ Here are the configurable parameters for GlitchMiner, with explanations of their
 
 ---
 
-## 📊 Impact
-
-GlitchMiner has proven effective across various LLM architectures, significantly reducing the risk of error in critical applications.
-
----
 
 ## 🌟 Citing
 
